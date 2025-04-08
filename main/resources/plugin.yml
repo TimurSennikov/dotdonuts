@@ -1,0 +1,17 @@
+name: untitled8
+version: '${project.version}'
+main: senntools.untitled8.Untitled8
+api-version: '1.21'
+
+commands:
+  setdonation:
+    description: Used to SET user donations amount to certain value.
+    usage: /<command>
+
+  mydonation:
+    description: Used to view how many money did you donate to server.
+    usage: /<command>
+
+  star:
+    description: Used to toggle donate star.
+    usage: /<command>
